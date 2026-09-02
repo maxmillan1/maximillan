@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Maxi Millan is a web developer and digital designer creating expressive, high-performing digital experiences.">
+  <title>Maxi Millan — Web Developer & Digital Experience Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <header class="nav-wrap">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Maxi Millan home"><span>MM</span><b>Maxi Millan<span>.</span></b></a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#graphics">Graphics</a>
+        <a href="#electro">Electro Connect</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><i></i> Available for freelance projects</div>
+        <h1 data-scatter-heading aria-label="I build digital experiences that move people."><span class="scatter-line">I build <em>digital</em></span><br><span class="scatter-line">experiences that</span><br><span class="scatter-line">move people.</span></h1>
+        <p class="hero-text">Web developer, UI/UX designer and SEO specialist helping ambitious brands turn ideas into fast, beautiful and high-converting web experiences.</p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">Explore my work <span>↓</span></a>
+          <a href="#contact" class="btn btn-ghost">Start a project <span>↗</span></a>
+        </div>
+        <div class="stats">
+          <div><strong class="count" data-target="5">0</strong><small>Projects shipped</small></div>
+          <div><strong class="count" data-target="4">0</strong><small>Years experience</small></div>
+          <div><strong class="count" data-target="87">0</strong><small>Client satisfaction %</small></div>
+        </div>
+      </div>
+
+      <div class="hero-art reveal" aria-label="Abstract developer workspace illustration">
+        <div class="orb orb-a"></div>
+        <div class="orb orb-b"></div>
+        <div class="code-card">
+          <div class="code-top"><span></span><span></span><span></span><label>portfolio.js</label></div>
+          <pre><code><b>const</b> developer = {
+  name: <i>"Maxi Millan"</i>,
+  focus: [
+    <i>"Web Development"</i>,
+    <i>"UI/UX Design"</i>,
+    <i>"SEO"</i>,
+    <i>"Graphic Design"</i>
+  ],
+  passion: <i>"Great products"</i>
+};
+
+developer.<strong>build</strong>();</code></pre>
+        </div>
+        <div class="floating-card card-one"><span>✦</span> Clean code</div>
+        <div class="floating-card card-two"><span>↗</span> +42% conversions</div>
+        <div class="circle-text">DESIGN • DEVELOP • OPTIMIZE • </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Services ticker"><div>WEB DEVELOPMENT <span>✦</span> UI/UX DESIGN <span>✦</span> SEO & GROWTH <span>✦</span> GRAPHIC DESIGN <span>✦</span> WEB DEVELOPMENT <span>✦</span> UI/UX DESIGN <span>✦</span></div></div>
+
+    <section id="services" class="section container">
+      <div class="section-head reveal">
+        <div><span class="label">01 — What I do</span><h2>Services built around<br><em>your growth.</em></h2></div>
+        <p>From the first sketch to launch and optimization, I create digital products that look great, work brilliantly and get found.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service reveal"><span class="service-no">01</span><div class="service-icon">⌘</div><h3>Web Development</h3><p>Responsive, accessible and lightning-fast websites engineered with modern HTML, CSS, JavaScript and scalable frameworks.</p><a href="#contact">Build your site <span>↗</span></a></article>
+        <article class="service reveal"><span class="service-no">02</span><div class="service-icon">◈</div><h3>UI/UX Design</h3><p>Human-centered interfaces, wireframes and polished design systems that turn complex ideas into intuitive experiences.</p><a href="#contact">Design an experience <span>↗</span></a></article>
+        <article class="service reveal"><span class="service-no">03</span><div class="service-icon">⌁</div><h3>SEO</h3><p>Technical SEO, content structure, performance and search strategy designed to increase visibility and qualified organic traffic.</p><a href="#contact">Grow your traffic <span>↗</span></a></article>
+        <article class="service reveal"><span class="service-no">04</span><div class="service-icon">▣</div><h3>Graphic Design</h3><p>Visual identity, layout hierarchy, typography and creative strategy designed to increase brand recognition and audience engagement.</p><a href="#graphics">See the visual work <span>↗</span></a></article>
+      </div>
+    </section>
+
+    <section id="work" class="section work-section">
+      <div class="container">
+        <div class="section-head reveal"><div><span class="label">02 — Selected work</span><h2>Ideas turned into<br><em>experiences.</em></h2></div><p>A selection of projects across product design, development, e-commerce and digital growth.</p></div>
+        <div class="projects">
+          <article class="project reveal">
+            <div class="project-visual visual-one nova-slider" data-slider aria-label="Nova Creative design slider"><div class="nova-track"><div class="nova-slide nova-slide-brand is-active"><div class="nova-slide-top"><span>NOVA / 01</span><b>Brand system</b></div><div class="nova-brand-mark">N</div><div class="nova-slide-copy"><strong>Creative<br>studio.</strong><span>Identity / digital</span></div><div class="nova-slide-grid"></div></div><div class="nova-slide nova-slide-product"><img src="assets/design-packaging.png" alt="Nova product packaging design concept"><div class="nova-product-overlay"><span>NOVA / 02</span><strong>Objects<br>with purpose.</strong><b>Product design</b></div></div><div class="nova-slide nova-slide-web"><div class="nova-web-top"><span>NOVA / 03</span><b>Web experience</b></div><div class="nova-web-nav"><strong>NOVA</strong><span>Work</span><span>About</span><span>Contact</span></div><div class="nova-web-body"><small>Creative studio</small><strong>Make a<br>lasting mark.</strong><i></i></div><div class="nova-web-footer"><span>Scroll to explore</span><b>↗</b></div></div></div><div class="nova-controls"><button class="nova-prev" type="button" aria-label="Previous Nova Creative slide">←</button><div class="nova-dots" role="tablist" aria-label="Nova Creative slides"><button class="nova-dot is-active" type="button" role="tab" aria-label="Show brand system slide" aria-selected="true"></button><button class="nova-dot" type="button" role="tab" aria-label="Show product design slide" aria-selected="false"></button><button class="nova-dot" type="button" role="tab" aria-label="Show web experience slide" aria-selected="false"></button></div><button class="nova-next" type="button" aria-label="Next Nova Creative slide">→</button></div></div>
+            <div class="project-info"><div><span class="tag">Brand / Web Design</span><h3>Nova Creative</h3></div><a href="#case-study-modal" class="case-study-trigger" data-case-study="nova">View case study ↗</a></div>
+          </article>
+          <article class="project reveal">
+            <div class="project-visual visual-two"><div class="dashboard"><div class="dash-head">Growth overview <b>2026</b></div><div class="bars"><i style="height:35%"></i><i style="height:58%"></i><i style="height:48%"></i><i style="height:76%"></i><i style="height:66%"></i><i style="height:92%"></i></div></div></div>
+            <div class="project-info"><div><span class="tag">Web Application</span><h3>Pulse Analytics</h3></div><a href="#case-study-modal" class="case-study-trigger" data-case-study="pulse">View case study ↗</a></div>
+          </article>
+          <article class="project reveal">
+            <div class="project-visual visual-three"><div class="shop-card"><span>FORM / 01</span><strong>Objects<br>with purpose.</strong><button>Shop collection →</button></div></div>
+            <div class="project-info"><div><span class="tag">E-commerce / SEO</span><h3>Form Objects</h3></div><a href="#case-study-modal" class="case-study-trigger" data-case-study="form">View case study ↗</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="graphics" class="section graphics-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><span class="label">03 — Graphic design</span><h2>Visuals with a<br><em>point of view.</em></h2></div>
+          <p>A small collection of art direction, campaign and packaging explorations. Hover each piece to see the work come alive.</p>
+        </div>
+
+        <div class="design-intro reveal">
+          <div class="design-intro-copy">
+            <span class="design-kicker">Art direction / 2026</span>
+            <h3>Turn up<br>the signal.</h3>
+            <p>Graphic systems that balance bold shape, tactile detail and a little bit of tension.</p>
+            <div class="design-line"><span></span><b>01 / 03</b></div>
+          </div>
+          <div class="design-hero-art">
+            <div class="hero-art-glow"></div>
+            <img src="assets/design-identity-new.png" alt="Abstract acid-lime identity system artwork">
+            <span class="stamp">MM / VISUAL<br>STUDIES</span>
+          </div>
+        </div>
+
+        <div class="design-grid">
+          <article class="design-card design-card-wide reveal" data-tilt data-design-study="identity">
+            <div class="design-image"><img src="assets/design-identity-new.png" alt="Abstract acid-lime identity system artwork"><span class="image-index">01</span><button class="view-pill" type="button">Explore piece <b>↗</b></button></div>
+            <div class="design-meta"><div><span class="tag">Editorial system</span><h3>Signal / 01</h3></div><p>Art direction<br>Identity</p></div>
+          </article>
+          <article class="design-card reveal" data-tilt data-design-study="packaging">
+            <div class="design-image"><img src="assets/design-packaging-new.png" alt="Charcoal packaging and print design artwork"><span class="image-index">02</span><button class="view-pill" type="button">Explore piece <b>↗</b></button></div>
+            <div class="design-meta"><div><span class="tag">Packaging study</span><h3>Objects / 02</h3></div><p>Packaging<br>Print</p></div>
+          </article>
+          <article class="design-card reveal" data-tilt data-design-study="campaign">
+            <div class="design-image"><img src="assets/design-campaign-new.png" alt="Kinetic lime and cobalt campaign artwork"><span class="image-index">03</span><button class="view-pill" type="button">Explore piece <b>↗</b></button></div>
+            <div class="design-meta"><div><span class="tag">Campaign visual</span><h3>Motion / 03</h3></div><p>Campaign<br>Art direction</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="electro" class="section electro-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><span class="label">04 — Featured build</span><h2>Electro<br><em>Connect.</em></h2></div>
+          <p>A service-business website concept designed to make electrical work feel clear, trustworthy and easy to book.</p>
+        </div>
+
+        <div class="electro-layout">
+          <div class="electro-browser reveal">
+            <div class="browser-chrome"><div class="browser-dots"><i></i><i></i><i></i></div><span>electroconnect / home</span><b>↗</b></div>
+            <div class="electro-site">
+              <div class="electro-nav"><strong><i>EC</i> ELECTRO<br>CONNECT</strong><div><span>Services</span><span>About</span><span>Contact</span></div><button>Book a quote <b>↗</b></button></div>
+              <div class="electro-hero">
+                <div class="electro-hero-copy"><span class="mini-label">POWERING WHAT'S NEXT</span><h3>Power that<br><em>keeps moving.</em></h3><p>Reliable electrical work for homes, businesses and everything in between.</p><a href="#contact">Start a project <b>↗</b></a></div>
+                <div class="electro-spark"><span>+</span><div class="spark-ring"></div><b>01</b></div>
+              </div>
+              <div class="electro-features"><div><span>01</span><strong>Fast response</strong><small>When you need us</small></div><div><span>02</span><strong>Clear pricing</strong><small>No surprises</small></div><div><span>03</span><strong>Built to last</strong><small>Quality first</small></div></div>
+            </div>
+          </div>
+          <div class="electro-copy reveal">
+            <span class="label">Website / Brand system</span>
+            <h3>A sharper digital home for a hands-on team.</h3>
+            <p>Electro Connect pairs a confident visual identity with a streamlined service journey. The result is a site that communicates capability in seconds and gives customers a clear next step.</p>
+            <div class="electro-tags"><span>Strategy</span><span>UI / UX</span><span>Development</span><span>SEO</span></div>
+            <div class="electro-details"><div><span>Role</span><b>Design + development</b></div><div><span>Focus</span><b>Trust / conversion</b></div><div><span>Deliverables</span><b>Responsive website</b></div></div>
+            <div class="electro-actions"><a class="btn btn-primary" href="#contact">Talk about a build <span>↗</span></a><a class="electro-case-link case-study-trigger" href="#case-study-modal" data-case-study="electro">View case study <span>↗</span></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container about">
+      <div class="about-visual reveal"><div class="portrait-placeholder"><span>MM</span></div><div class="experience-card"><b>4+</b><span>years creating<br>for the web</span></div></div>
+      <div class="about-copy reveal"><span class="label">05 — About me</span><h2>Code with a<br><em>creative edge.</em></h2><p>I’m Maxi, a multidisciplinary web developer who enjoys the intersection of technology, design and business. I care about the details users notice—and the technical details they don't.</p><p>My approach is collaborative: understand the goal, simplify the problem, design with intention, then build something that performs.</p><div class="skill-list"><span>HTML / CSS</span><span>JavaScript</span><span>React</span><span>UI/UX</span><span>Canva</span><span>SEO</span><span>Performance</span></div></div>
+    </section>
+
+    <section class="section process-section">
+      <div class="container">
+        <div class="section-head reveal"><div><span class="label">06 — Process</span><h2>From idea to<br><em>impact.</em></h2></div></div>
+        <div class="process">
+          <div class="process-step reveal process-motion"><b>01</b><h3>Discover</h3><p>Goals, audience, research and project strategy.</p></div>
+          <div class="process-step reveal process-motion"><b>02</b><h3>Design</h3><p>Wireframes, visual direction and interactive prototypes.</p></div>
+          <div class="process-step reveal process-motion"><b>03</b><h3>Build</h3><p>Clean, responsive code with performance in mind.</p></div>
+          <div class="process-step reveal process-motion"><b>04</b><h3>Grow</h3><p>Launch, measure, optimize and keep improving.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container reveal">
+      <span class="label">07 — Let's work together</span>
+      <h2>Have an idea?<br><em>Let's make it real.</em></h2>
+      <p>Tell me what you're building and I'll get back to you with the next steps.</p>
+      <a class="email-link" href="mailto:maximillanabugri986@gmal.com">hello maximillanabugri986@gmail.com <span>↗</span></a>
+      <div class="socials"><a href="https://www.linkedin.com/in/maximillan-awiiri-abugri-479496247" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a><a href="https://github.com/maxmillan1" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a><a href="https://dribbble.com/1maximillan" target="_blank" rel="noopener noreferrer">Dribbble <span>↗</span></a></div>
+    </section>
+    <div class="case-modal" id="case-study-modal" aria-hidden="true">
+      <div class="case-modal-backdrop" data-close-case></div>
+      <section class="case-modal-panel" role="dialog" aria-modal="true" aria-labelledby="case-modal-title">
+        <button class="case-modal-close" type="button" aria-label="Close case study" data-close-case>×</button>
+        <div class="case-modal-heading"><span class="label" id="case-modal-label">Case study</span><h2 id="case-modal-title">Project details.</h2><p id="case-modal-summary">A closer look at the decisions behind the work.</p></div>
+        <div class="case-modal-content">
+          <div class="case-metric-grid" id="case-modal-metrics"></div>
+          <div class="case-detail-copy"><div class="case-detail-block"><span>Challenge</span><p id="case-modal-challenge"></p></div><div class="case-detail-block"><span>Approach</span><p id="case-modal-approach"></p></div><div class="case-detail-block"><span>Outcome</span><p id="case-modal-outcome"></p></div></div>
+        </div>
+        <div class="case-visual" id="case-modal-visual"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer><div class="container footer"><span>© 2026 Maxi Millan</span><span>Designed & built with intention.</span><a href="#home">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
